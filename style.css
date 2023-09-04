@@ -7,6 +7,7 @@ body {
   width: 1600px;
   margin: 0 auto;
   min-height: 100vh;
+  background: greenyellow;
 }
 .header {
   display: flex;
@@ -268,4 +269,12 @@ footer .element {
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
+}
+@media (max-width:1599px) {
+  .container {
+    width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background: #0fc4b593;
+  }
 }
